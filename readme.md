@@ -86,7 +86,7 @@ Portfolio-Website/
 
 ## 📸 Screenshots
 
-![Screenshot](assets/ss.png)
+![Portfolio Preview](assets/ss.png)
 
 ---
 
@@ -121,7 +121,7 @@ A downloadable resume is available directly through the portfolio website.
 ## 📫 Connect With Me
 
 * LinkedIn: [www.linkedin.com/in/vriddhi-mishra](http://www.linkedin.com/in/vriddhi-mishra)
-* GitHub: github.com/VriddhiMishra
+* GitHub: [GitHub Profile](https://github.com/VriddhiMishra)
 * Email: [vriddhimishra2@gmail.com](mailto:vriddhimishra2@gmail.com)
 
 ---
