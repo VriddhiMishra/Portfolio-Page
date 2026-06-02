@@ -4,7 +4,7 @@ A responsive personal portfolio website built to showcase my skills, projects, a
 
 ## 🚀 Live Demo
 
-🔗 website link here
+🔗 [Click here to see live demo](https://vriddhimishra.github.io/Portfolio-Page/)
 
 ---
 
