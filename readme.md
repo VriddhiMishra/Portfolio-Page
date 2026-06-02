@@ -79,6 +79,7 @@ Portfolio-Website/
 │   └── resume_vriddhi_mishra.pdf
 │
 └── README.md
+```
 
 ---
 
