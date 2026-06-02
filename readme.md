@@ -4,7 +4,7 @@ A responsive personal portfolio website built to showcase my skills, projects, a
 
 ## 🚀 Live Demo
 
-🔗 [Click here to see live demo](https://portfolio-page-chi-lemon.vercel.app/)
+🔗 Live Demo: https://portfolio-page-chi-lemon.vercel.app/
 
 ---
 
