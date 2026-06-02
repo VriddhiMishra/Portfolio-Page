@@ -1,0 +1,286 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: rgb(0, 0, 33);
+     color: white;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 80px;
+     background-color: rgb(30, 30, 98);
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: center;
+ }
+
+ nav ul li {
+     list-style: none;
+     margin: 0 23px;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ nav ul li a:hover {
+     color: rgb(111, 111, 169);
+     font-size: 1.05rem;
+ }
+
+ .left {
+     font-size: 1.5rem;
+ }
+
+ .firstSection {
+     display: flex;
+     justify-content: space-around;
+     margin: 10px 0;
+ }
+
+ .firstSection div {
+     width: 40%;
+ }
+
+ .leftSection {
+     width: 50%;
+     font-size: 3rem;
+     margin: 60px 0;
+ }
+
+ .rightSection {
+     width: 50%;
+     margin: 20px 0;
+ }
+
+ .purple {
+     color: blueviolet;
+ }
+/* 
+ img {
+     height: 450px;
+     width: 450px;
+ } */
+
+.rightSection img{
+    width:450px;
+    height:450px;
+}
+
+
+ #element {
+     color: blueviolet;
+ }
+
+ .secondSection {
+     max-width: 80vw;
+     margin: auto;
+ }
+
+ .secondSection h1 {
+     font-size: 1.6rem;
+     text-align: center;
+ }
+
+ main hr {
+     border: 0;
+     background-color: #9c97f1;
+     height: 1.2px;
+     margin: 40px 84px;
+ }
+
+ .thirdSection {
+     max-width: 100vw;
+     margin-top: 20px;
+     margin-bottom: 1.5rem;
+     display: flex;
+ }
+
+ .divBtn {
+     padding: 0;
+     margin: 2%;
+ }
+
+ h2.skillsH2 {
+     margin-bottom: 0;
+     margin-top: 0;
+     text-align: center !important;
+
+ }
+
+ .btn-violet {
+     background-color: blueviolet;
+     border: 2px solid rgba(255, 255, 255, 0.8);
+     color: white;
+     transition: all 0.3s ease;
+     --bs-btn-padding-x: 1.2rem;
+     --bs-btn-padding-y: 0.7rem;
+     margin: 10px;
+ }
+
+ .btn-violet:hover {
+     box-shadow: 0 0 15px blueviolet, 0 0 25px blueviolet;
+     background-color: #8a2be2;
+     color: #fff;
+     border-color: #ffffff;
+ }
+
+ .fourthSection {
+     display: flex;
+     justify-content: space-around;
+     margin: 10px 0;
+     text-align: center;
+ }
+
+ .card {
+     margin: 5%;
+     max-height: 500px;
+     transition: transform 0.3s ease;
+ }
+
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card-img-top{
+    height:220px;
+    object-fit:cover;
+}
+
+ .fifthSection {
+     display: flex;
+     justify-content: space-around;
+     margin: 10px 0;
+     text-align: center;
+ }
+
+ .sixthSection {
+     display: flex;
+     justify-content: space-around;
+     margin: 10px 0;
+     text-align: center;
+ }
+
+ .sixthSection a i {
+     margin-right: 10px;
+     transition: transform 0.2s;
+ }
+
+ .sixthSection a i:hover {
+     transform: scale(1.2);
+ }
+
+ .sixthSection {
+     transform: scale(1.2);
+ }
+
+ .socialMedia a {
+     text-decoration: none;
+ }
+
+ .sixthSection a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .sixthSection .divBtn {
+     text-decoration: none;
+     color: white;
+ }
+
+ .footer {
+     display: flex;
+     padding: 23px 122px;
+     justify-content: space-evenly;
+     text-align: center;
+     flex-direction: column;
+     align-items: center;
+     padding: 20px;
+     color: gray;
+ }
+
+ .footer h6 {
+     text-align: center;
+     color: gray;
+     margin: 5px 0;
+ }
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    
+nav{
+    flex-direction: column;
+    height: auto;
+    padding: 15px 0;
+}
+
+nav ul{
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li{
+    margin: 8px 10px;
+}
+
+.left{
+    margin-bottom: 10px;
+}
+
+.firstSection{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+.leftSection{
+    width: 90%;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.rightSection{
+    width: 100%;
+}
+
+.rightSection img{
+    width: 250px;
+    height: auto;
+}
+
+.card-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    margin: 15px;
+}
+
+.sixthSection{
+    transform: none;
+}
+
+main hr{
+    margin: 25px;
+}
+
+.footer{
+    padding: 15px;
+}
+
+}
