@@ -86,7 +86,7 @@ Portfolio-Website/
 
 ## 📸 Screenshots
 
-![Screenshot](./assets/ss.png)
+![Screenshot](assets/ss.png)
 
 ---
 
